@@ -1,4 +1,5 @@
 site_name: Microsoft 365 Lab
+site_url: https://microsoft-365-labs.gtzlabs.com/
 nav:
     - Home: index.md
 theme:
