@@ -1,6 +1,8 @@
-# Welcome to MkDocs
+# Welcome to Zephron Lab Notes 
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This notes will help you setup and deploy your on microsoft 365 enverment and SCCM.
+
+
 
 ## Commands
 
