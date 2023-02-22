@@ -3,6 +3,12 @@ nav:
     - Home: index.md
 theme:
   name: material
+  icon:
+    repo: fontawesome/brands/github-alt 
+
+repo_url: https://github.com/Zephron-gtz/Microsoft-365-Labs
+repo_name: Zephron-gtz/Microsoft-365-Labs
+
 
 markdown_extensions:
   - admonition
