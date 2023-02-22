@@ -4,8 +4,24 @@ nav:
     - Home: index.md
 theme:
   name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   icon:
-    repo: fontawesome/brands/github-alt 
+    repo: fontawesome/brands/github-alt
+  features:
+    - navigation.footer
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/efrain-gutierrez-4909b51a5/
 
 repo_url: https://github.com/Zephron-gtz/Microsoft-365-Labs
 repo_name: Zephron-gtz/Microsoft-365-Labs
