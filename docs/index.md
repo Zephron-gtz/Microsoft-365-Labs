@@ -33,4 +33,4 @@ This instructions are coped from [Windows 11 and Office 365 Deployment Lab Kit ]
 |HYD-CLIENT4 |	Windows 11 22H2 Workgroup|
 
 
-Instruction on how to install AD can [Active Directory Install](/Active%20Directory/Active%20Directory%20Install.md) 
+Instruction on how to install AD can [Active Directory Install](/Active-Directory/Active-Directory-Install.md) 
