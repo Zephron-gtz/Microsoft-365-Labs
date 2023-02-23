@@ -2,7 +2,7 @@ site_name: Microsoft 365 Lab
 site_author: GTZ Labs
 nav:
     - Home: index.md
-    - AD: /Active-Directory/Active-Directory-Install.md
+    - AD: Active-Directory/Active-Directory-Install.md
 theme:
   name: material
   palette:
