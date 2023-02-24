@@ -4,7 +4,7 @@ This notes will help you setup and deploy your own Microsoft 365 envierment and 
 
 This instructions are coped from [Windows 11 and Office 365 Deployment Lab Kit ](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-office-365-lab-kit) with a few modefactions that I made to work in my lab since the Instructions are a bit outdated.
 
-#### These Notes features a complete lab environment including evaluation versions of:
+*** These Notes features a complete lab environment including evaluation versions of: ***
 
 -   Windows 11 Enterprise, Version 22H2
 -   Microsoft Endpoint Configuration Manager Version 2211
@@ -34,3 +34,5 @@ This instructions are coped from [Windows 11 and Office 365 Deployment Lab Kit ]
 
 
 Instruction on how to install AD can [Active Directory Install](Active-Directory/Active-Directory-Install.md)
+
+Windows install server [2022](Windows Server 2022/Window Server Install.md)

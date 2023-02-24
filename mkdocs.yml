@@ -2,7 +2,12 @@ site_name: Microsoft 365 Lab
 site_author: GTZ Labs
 nav:
     - Home: index.md
-    - AD: Active-Directory/Active-Directory-Install.md
+    - AD: 
+      - Active-Directory/Active-Directory-Install.md
+      - Active-Directory/DHCP.md
+    - SCCM:
+      - SCCM/SCCM Install.md
+    
 theme:
   name: material
   palette:
@@ -18,6 +23,8 @@ theme:
     repo: fontawesome/brands/github-alt
   features:
     - navigation.footer
+    - navigation.path
+    - navigation.instant
 
 extra:
   social:
