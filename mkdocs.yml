@@ -2,12 +2,12 @@ site_name: Microsoft 365 Lab
 site_author: GTZ Labs
 site_url: https://microsoft-365-labs.gtzlabs.com/en/latest/
 nav:
-    - Home: index.md
-    - AD: 
-      - Active-Directory/Active-Directory-Install.md
-      - Active-Directory/DHCP.md
-    - SCCM:
-      - SCCM/SCCM Install.md
+  - Home: index.md
+  - AD: 
+    - Active-Directory/Active-Directory-Install.md
+    - Active-Directory/DHCP.md
+  - SCCM:
+    - SCCM/SCCM Install.md
     
 theme:
   name: material
@@ -29,10 +29,13 @@ theme:
     repo: fontawesome/brands/github-alt
     logo: material/cloud
   features:
-    - navigation.tracking
+    - header.autohide
     - navigation.footer
-    - navigation.path
     - navigation.instant
+    - toc.integrate
+    - navigation.top
+    - content.code.copy
+
 
 extra:
   generator: false
@@ -43,6 +46,8 @@ extra:
 repo_url: https://github.com/Zephron-gtz/Microsoft-365-Labs
 repo_name: Zephron-gtz/Microsoft-365-Labs
 
+plugins:
+  - glightbox
 
 markdown_extensions:
   - admonition
@@ -69,6 +74,9 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
