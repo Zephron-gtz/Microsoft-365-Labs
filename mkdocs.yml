@@ -1,5 +1,6 @@
 site_name: Microsoft 365 Lab
 site_author: GTZ Labs
+site_url: https://microsoft-365-labs.gtzlabs.com/en/latest/
 nav:
     - Home: index.md
     - AD: 
