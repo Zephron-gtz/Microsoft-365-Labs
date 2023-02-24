@@ -11,23 +11,31 @@ nav:
     
 theme:
   name: material
+# Light Mode
   palette:
     - scheme: default
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
+# DArk mode
     - scheme: slate
+      primary: black
+      accent: amber
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+      
   icon:
     repo: fontawesome/brands/github-alt
+    logo: material/cloud
   features:
+    - navigation.tracking
     - navigation.footer
     - navigation.path
     - navigation.instant
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/efrain-gutierrez-4909b51a5/
